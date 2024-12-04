@@ -8,7 +8,7 @@ This is my COP3530 "group" project README.
 # Documentation and resources on how to use AirmanSort
 ## Getting Started with the Program
 
-This is a simple program that uses brute force methods...specifically bubble sort.  Given a formatted csv file, the program will intake data on any number of Airmn, and then sort based on your specified criteria.
+This is a simple program that uses brute force methods...specifically bubble sort as well as a max heap procedure.  Given a formatted csv file, the program will intake data on any number of Airmn, and then sort based on your specified criteria.
 
 ### Step 1: Create Your CSV File:
 
@@ -35,4 +35,4 @@ The program will calculate several new fields, including total test score, total
 
 #### Issues:
 
-Because the program uses a brute force bubble sort, it is very slow with large files.  100,000 tuples is the max that should be attempted.
+Because the program uses a brute force bubble sort for the first half, it is very slow with large files.  100,000 tuples is the max that should be attempted.  But it is very easy to compare the speed of the heap sort.
